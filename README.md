@@ -34,3 +34,22 @@
 同花顺：
 同一种花色的顺子。 比较最大的牌的牌的大小。若大小都相同，则为平局。
 ### 要求：为两手牌判断大小。
+
+### 03-SpringBoot
+使用SpringBoot框架，构建一个Restful API，能够完成Todo list的以下功能。  
+返回所有Todo任务  
+创建一个新的Todo任务  
+返回一个指定ID的Todo任务  
+删除一个Todo任务  
+
+Todo中一个任务的JSON格式定义为：  
+  {  
+    "id": 1,  
+    "content": "Restful API homework",  
+    "createdTime": "2019-05-15T00:00:00Z"  
+  }  
+进一步的功能提示：需完成的四个功能的Restful API定义如下，实现即可。  
+GET /api/tasks/  
+POST /api/tasks/  
+GET /api/tasks/{id}  
+DELETE /api/tasks/{id}  
