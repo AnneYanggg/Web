@@ -5,6 +5,7 @@ module.exports = {
     browser
       .url('http://localhost:8080')   // visit the url
       .waitForElementVisible('body') // wait for the body to be rendered
+<<<<<<< HEAD
       // 此处省略具体的测试代码。。。
       var conf = require('../../nightwatch.conf.BASIC.js')
 
@@ -13,6 +14,8 @@ module.exports = {
       browser
       .url('http://localhost:8080')   // visit the url
       .waitForElementVisible('body') // wait for the body to be rendered
+=======
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
       .pause(1000)
       .setValue('#task', 'first  todo !')
       .click('#add')
@@ -30,8 +33,13 @@ module.exports = {
       .click('tbody:first-child .delete-btn')
       .assert.containsText('.total-items', '共有1个')
       .end()
+<<<<<<< HEAD
        }
       }
       //.end()
   }
 }
+=======
+  }
+}
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732

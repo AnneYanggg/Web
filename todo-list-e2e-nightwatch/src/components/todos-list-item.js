@@ -3,7 +3,10 @@ import React from "react";
 export default class TodosListItem extends React.Component {
     constructor (props) {
         super(props);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
         this.state = {
             isEditing: false
         };

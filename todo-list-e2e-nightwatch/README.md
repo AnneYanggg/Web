@@ -22,6 +22,7 @@ open localhost:8080
 
 # To build the app for production, run the following command:
 npm run bundle
+<<<<<<< HEAD
 ```
 
 ## :yum: How to contribute
@@ -64,3 +65,9 @@ Thanks! :heart:
 [website]: https://ionicabizau.net
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
+=======
+
+# run the e2e test,following command:
+npm test
+```
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732

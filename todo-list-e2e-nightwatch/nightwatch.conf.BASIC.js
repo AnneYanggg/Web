@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 require('env2')('.env'); // optionally store youre Evironment Variables in .env
+=======
+require('env2')('.env'); // optionally store your Evironment Variables in .env
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
 const seleniumServer = require("selenium-server");
 const chromedriver = require("chromedriver");
 const SCREENSHOT_PATH = "./screenshots/";
@@ -22,7 +26,11 @@ module.exports = {
     "default": {
       "screenshots": {
         "enabled": true, // if you want to keep screenshots
+<<<<<<< HEAD
         "path": './screenshots' // save screenshots here
+=======
+        "path": SCREENSHOT_PATH // save screenshots here
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
       },
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
@@ -63,4 +71,8 @@ function imgpath (browser) {
 }
 
 module.exports.imgpath = imgpath;
+<<<<<<< HEAD
 module.exports.SCREENSHOT_PATH = SCREENSHOT_PATH;
+=======
+module.exports.SCREENSHOT_PATH = SCREENSHOT_PATH;
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732

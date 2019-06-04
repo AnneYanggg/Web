@@ -1,6 +1,10 @@
 import React from "react";
 import TodosList from "./todos-list"
 import CreateTodo from "./create-todo";
+<<<<<<< HEAD
+=======
+import css from "./style.css";
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
 import GithubCorner from "react-github-corner";
 
 const todos = {
@@ -69,7 +73,11 @@ export default class App extends React.Component {
                     editTask={this.editTask.bind(this)}
                     deleteTask={this.deleteTask.bind(this)}
                 />
+<<<<<<< HEAD
               <p className="total-items">共有{this.state.todos.length}个</p>
+=======
+                <p className="total-items">共有{this.state.todos.length}个</p>
+>>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
             </div>
         );
     }
