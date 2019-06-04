@@ -6,12 +6,8 @@
   "scripts": {
     "test": "nightwatch --config nightwatch.conf.BASIC.js",
     "start:dev": "webpack-dev-server",
-<<<<<<< HEAD
     "bundle": "webpack -p",
     "e2e": "nightwatch --config nightwatch.conf.BASIC.js"
-=======
-    "bundle": "webpack -p"
->>>>>>> 3732cde203fd7e2680a23c23dcaddf732d8d1732
   },
   "keywords": [],
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
